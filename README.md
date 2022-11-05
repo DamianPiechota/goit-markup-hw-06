@@ -1,2 +1,2 @@
-# goit-markup-hw-06
-PracaDomowa6DamianPiechota
+# goit-markup-hw-05
+PracaDomowa05
