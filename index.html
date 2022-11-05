@@ -64,6 +64,58 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-button" data-modal-close><span>X</span></button>
+        <div class="modal-content">
+          <p class="p-modal">
+            Zostaw swoje dane w formularzu poniżej
+          </p>
+          <form class="my-form">
+            <fieldset class="fieldset">
+              <label class="label" for="name">Name</label>
+              <svg class="icon-modal">
+              <use
+              href="./images/icons.svg#user-icon">
+            </use>
+            </svg>
+            <input class="input" type="text" placeholder="Podaj swoje imie" id="name" />
+            </fieldset>
+
+            <fieldset class="fieldset">
+              <label class="label" for="phone">Telefon</label>
+              <svg class="icon-modal">
+              <use
+              href="./images/icons.svg#phone-icon">
+            </use>
+            </svg>
+            <input class="input" 
+            type="tel" 
+            placeholder="000-000-000"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+            id="phone" />
+            </fieldset>
+
+            <fieldset class="fieldset">
+              <label class="label" for="name">Email</label>
+              <svg class="icon-modal">
+              <use
+              href="./images/icons.svg#mail-icon">
+            </use>
+            </svg>
+            <input class="input" type="email" placeholder="Podaj swój email" id="mail" />
+            </fieldset>
+
+             <fieldset class="fieldset-kom">
+              <label class="label" for="name">Komentarz</label>
+            <input class="input-kom" type="text" placeholder="Wprowadź tekst" id="komentarz" />
+            </fieldset>
+
+            <label class="legal-checkbox">
+              <input type="checkbox" id="legal"/> <p class="legal">Oświadczam iż akceptuję <span class="rules"> <a href="#">Regulamin</a></span> i <span class="rules"> <a href="#">Politykę prywatności.</a></span></p>
+            </label>
+
+            <button class="send">Wyślij</button>
+
+          </form>
+        </div>
       </div>
     </div> 
 

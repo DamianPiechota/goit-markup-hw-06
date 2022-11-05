@@ -739,5 +739,148 @@ transform:scale(0%);
   height: 30px;
   box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 50%;
-  margin-left: 93%;
+  margin-top: 8px;
+  margin-left: 98%;
+}
+
+/*MODAL*/
+
+.modal {
+  padding-inline: 40px;
+}
+
+.my-form {
+  padding-top: 24px;
+}
+
+.p-modal {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.fieldset {
+  position: relative;
+  display: flex;
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  align-items: center;
+  padding-block: 5px;
+  margin-bottom: 28px;
+}
+
+.fieldset-kom {
+  position: relative;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  width: 448px;
+  height: 120px;
+  padding-block: 5px;
+  margin-bottom: 28px;
+}
+
+.my-form .icon-modal {
+  width: 18px;
+  height: 18px;
+  margin-inline: 10px;
+  /*margin-block: 9px;*/
+}
+
+.my-form .label {
+  position: absolute;
+  top: -18px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
+
+.my-form .input {
+  border: 0px;
+  background-color: transparent;
+  font-size: 16px;
+  width: 90%;
+}
+
+.my-form .input-kom {
+  border: 0px;
+  background-color: transparent;
+  font-size: 12px;
+  width: 90%;
+  margin-left: 16px;
+  margin-top: 12px;
+}
+
+.my-form .input:focus {
+  outline: 0;
+}
+
+.my-form .input-kom:focus {
+  outline: 0;
+}
+
+.fieldset:has(input:focus) {
+  border-color: #2196F3;
+}
+
+.fieldset-kom:has(input:focus) {
+  border-color: #2196F3;
+}
+
+.fieldset:has(input:focus) .icon-modal {
+  fill: #2196F3;
+}
+
+.legal {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-left: 5px;
+}
+
+.rules {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.rules a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #2196F3;
+}
+
+.legal-checkbox {
+  display: flex;
+  align-content: center;
+  margin-inline: 14px;
+}
+
+.checkboc {
+  width: 16px;
+  height: 15px;
+}
+
+.send {
+  width: 200px;
+  height: 50px;
+  color: #EEEEEE;
+  background-color: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-inline: 124px;
+  border: 0;
 }
