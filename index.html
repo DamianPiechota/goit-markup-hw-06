@@ -63,7 +63,11 @@
     </div>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-button" data-modal-close><span>X</span></button>
+        <button class="modal-button" data-modal-close><svg class="close-button">
+              <use
+              href="./images/icons.svg#close">
+            </use>
+            </svg></button>
         <div class="modal-content">
           <p class="p-modal">
             Zostaw swoje dane w formularzu poniżej
@@ -80,7 +84,7 @@
             </fieldset>
 
             <fieldset class="fieldset">
-              <label class="label" for="phone">Telefon</label>
+              <label class="label" for="name">Telefon</label>
               <svg class="icon-modal">
               <use
               href="./images/icons.svg#phone-icon">
@@ -107,14 +111,13 @@
               <label class="label" for="name">Komentarz</label>
             <input class="input-kom" type="text" placeholder="Wprowadź tekst" id="komentarz" />
             </fieldset>
+            </form>
 
             <label class="legal-checkbox">
               <input type="checkbox" id="legal"/> <p class="legal">Oświadczam iż akceptuję <span class="rules"> <a href="#">Regulamin</a></span> i <span class="rules"> <a href="#">Politykę prywatności.</a></span></p>
             </label>
 
-            <button class="send">Wyślij</button>
-
-          </form>
+            <button type="submit" class="send">Wyślij</button>
         </div>
       </div>
     </div> 
@@ -457,6 +460,19 @@
             </li>
           </ul>
         </div>
+      </div>
+      <div class="email-input">
+        <p class="input-description">Zapisz się do newslettera</p>
+        <fieldset class="footer-fieldset">
+              <label class="label" for="name"></label>
+            <input class="input" type="email" placeholder="E-mail" id="mail" />
+            </fieldset>
+          <button href="#" type="submit" class="footer-send"><svg class="arrow-button" width="200" height="50">
+                <use href="./images/icons.svg#arrow-button"></use>
+              </svg></button>
+          <!-- <svg class="arrow-footer" width="24" height="24">
+                <use href="./images/icons.svg#arrow-footer"></use>
+              </svg> -->
       </div>
     </div>
 </footer> 
