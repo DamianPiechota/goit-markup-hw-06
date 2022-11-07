@@ -889,15 +889,13 @@ p {
   height: 15px;
 }
 
-.input-check:checked ~ .checked { 
-  display:block
+.input-check:checked ~ .checked {
+  display: block;
 }
 
-.input-check ~ .checked { 
-  display:none
+.input-check ~ .checked {
+  display: none;
 }
-
-
 
 .send {
   width: 200px;
@@ -982,4 +980,3 @@ input[type="checkbox"] {
   margin-top: 9px;
   display: flex;
 }
-
