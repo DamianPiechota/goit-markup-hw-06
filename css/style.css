@@ -907,6 +907,7 @@ p {
   margin-inline: 124px;
   border: 0;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 input[type="checkbox"] {
@@ -918,12 +919,21 @@ input[type="checkbox"] {
   fill: #eeeeee;
   margin-left: -4px;
   margin-top: 8px;
+  width: 16px;
+  height: 15px;
 }
 
 .check-check {
   position: absolute;
   margin-left: -4px;
   margin-top: 8px;
+  width: 16px;
+  height: 15px;
+}
+
+.close-button {
+  width: 30px;
+  height: 30px;
 }
 
 /*FOOTER EMAIL INPUT*/
@@ -965,7 +975,12 @@ input[type="checkbox"] {
   border: 0px;
   background-color: transparent;
   font-size: 16px;
-  width: 90%;
+  width: 97%;
+  color:#ffffff;
+}
+
+.email-input .input::placeholder { 
+background-color: #2F303A;
 }
 
 .footer-send {
